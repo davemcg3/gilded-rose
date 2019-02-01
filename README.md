@@ -2,29 +2,7 @@
 
 ## Task
 
-Implement code for `Conjured Mana Cake`.
-
-## Installing Ruby
-
-### Windows
-
-There's an installer, it's easy.
-http://rubyinstaller.org/
-
-### Mac
-
-Newer macs ship with a usable version of Ruby.
-
-Try `ruby -v` in a terminal window, and if it's 1.9.x or 2.x you're fine.
-
-http://www.railstutorial.org/book/beginning#sec-install_ruby
-http://tutorials.jumpstartlab.com/topics/environment/environment.html
-http://docs.railsbridge.org/installfest/macintosh
-
-### Linux
-
-Ubuntu: http://docs.railsbridge.org/installfest/linux
-https://www.ruby-lang.org/en/installation/
+Implemented code for `Conjured Mana Cake`.
 
 ## Running the Specs
 
@@ -37,3 +15,13 @@ You can run the specs from the exercise directory. Execute the
 following command:
 
     rspec spec
+
+To use the refactored gilded rose class set the environment variable REFACTORED_GILDED_ROSE to true with the following command:
+
+    export REFACTORED_GILDED_ROSE=true
+
+Then you can run the spec as defined above.
+
+When finished, to permanently remove the environment variable simply run:
+
+    unset REFACTORED_GILDED_ROSE
